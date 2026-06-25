@@ -190,22 +190,34 @@ section h2{
   color: #0066cc;
   text-decoration: underline;
 }
-.contact-icons {
+footer {
+    background-color: #1a1a1a;
+    padding: 30px 20px;
     text-align: center;
-    margin: 30px 0;
-    padding-bottom: 20px;
+    width: 100%;
 }
 
-.contact-icons a {
-    margin: 0 15px;
-    font-size: 32px;
+.footer-icons {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-icons a {
     color: #0077b5;
-    text-decoration: none;
+    font-size: 24px;
+    transition: transform 0.2s, color 0.2s;
     display: inline-block;
-    transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.contact-icons a:hover {
-    transform: scale(1.2);
-    color: #005582;
+.footer-icons a:hover {
+    color: #00a0dc;
+    transform: scale(1.1);
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 0;
 }
